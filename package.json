@@ -1,0 +1,22 @@
+{
+  "name": "panoramic-wren-obtain-qbwsp",
+  "productName": "panoramic-wren-obtain-qbwsp",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "May Be",
+  "scripts": {
+    "start": "electron ."
+  },
+  "agora_electron": {
+    "electron_version": "12.0.0",
+    "platform": "win32",
+    "prebuilt": true,
+    "arch": "ia32"
+  },
+  "devDependencies": {
+    "agora-electron-sdk": "latest",
+    "electron": "12.0.0"
+  }
+}
